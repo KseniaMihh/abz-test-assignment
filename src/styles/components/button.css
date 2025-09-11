@@ -1,0 +1,30 @@
+.btn {
+    padding: 16px 8px;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.btn-primary:hover {
+    background-color: var(--yellow2);
+}
+
+.btn-secondary {
+    background-color: var(--dark-grey);
+    color: var(--light-grey);
+    cursor: not-allowed;
+}
+
+.btn-secondary.active {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.btn-secondary.active:hover {
+    background-color: var(--yellow2);
+}
