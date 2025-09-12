@@ -1,4 +1,8 @@
 @import 'styles/components/button.css';
+@import 'styles/layout/Header.css';
+@import 'styles/variables/colors.css';
+@import 'styles/variables/typography.css';
+@import 'styles/layout/BannerSection.css';
 
 :root {
     font-family: "Nunito", sans-serif;

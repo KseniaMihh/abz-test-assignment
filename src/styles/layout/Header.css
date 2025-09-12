@@ -1,0 +1,29 @@
+header,
+header::before,
+header::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 60px;
+}
+
+img.logo {
+    width: 104px;
+    height: 26px;
+
+}
+
+.header-btn {
+    max-height: 34px;
+    display: flex;
+    gap: 10px;
+}
