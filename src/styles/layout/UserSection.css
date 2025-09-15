@@ -1,7 +1,8 @@
 .users-section {
     background-color: var(--light-grey);
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    padding-bottom: 50px;
 }
 
 .users-container {
