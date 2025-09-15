@@ -7,17 +7,18 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    min-width: 100px;
+    max-height: 34px;
+    width: fit-content;
 }
 
 .btn-scroll {
     background-color: var(--yellow);
     color: var(--black);
-    min-width: 100px;
-    max-height: 34px;
 }
 
 .btn-scroll:hover {

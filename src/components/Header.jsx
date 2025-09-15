@@ -15,7 +15,7 @@ const Header = () => {
             <div className='header-btn'>
                 <button
                     className="btn btn-scroll"
-                    onClick={() => scrollToSection('users-section')}
+                    onClick={() => scrollToSection('UsersSection')}
                 >
                     Users
                 </button>

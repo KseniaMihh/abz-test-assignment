@@ -3,6 +3,8 @@
 @import 'styles/variables/colors.css';
 @import 'styles/variables/typography.css';
 @import 'styles/layout/BannerSection.css';
+@import 'styles/layout/UserSection.css';
+@import 'styles/components/forms/Form.css';
 
 :root {
     font-family: "Nunito", sans-serif;
@@ -13,4 +15,5 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
+    background-color: var(--light-grey);
 }
