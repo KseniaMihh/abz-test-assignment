@@ -1,7 +1,6 @@
 .form-section {
-    background-color: var(--white);
+    background-color: var(--light-grey);
     width: 100%;
-    padding: 140px 0;
     margin-top: 0;
 }
 
@@ -157,6 +156,8 @@ input[type="radio"]:checked + .radio-custom::after {
     background-color: var(--light-grey);
     cursor: pointer;
     min-height: 54px;
+    width: 100%;
+    max-width: 380px;
 }
 
 .upload-button {
@@ -175,10 +176,30 @@ input[type="radio"]:checked + .radio-custom::after {
     border: 1px solid;
     border-radius: 0 4px 4px 0;
     border-color: var(--dark-grey) var(--dark-grey) var(--dark-grey) var(--light-grey);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
 }
 
 .btn-submit {
     margin-bottom: 140px;
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+
+.success-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 

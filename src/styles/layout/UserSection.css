@@ -31,3 +31,34 @@
     overflow: hidden;
 }
 
+.user-email {
+    cursor: pointer;
+    position: relative;
+}
+
+.user-email[data-full-email]:not([data-full-email=""]):hover::after {
+    content: attr(data-full-email);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 4px;
+    padding: 3px 16px;
+    white-space: nowrap;
+    z-index: 1000;
+    font-size: 0.875rem;
+    margin-bottom: 5px;
+}
+
+.user-email[data-full-email]:not([data-full-email=""]):hover::before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: var(--black);
+    z-index: 1000;
+}
