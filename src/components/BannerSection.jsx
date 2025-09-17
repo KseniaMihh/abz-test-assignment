@@ -14,7 +14,7 @@ const BannerSection = () => {
   return (
     <section className="banner-section">
       <div className="banner-background">
-        <img src="/public/banner.svg" alt="Banner Image" />
+        <img src="/banner.svg" alt="Banner Image" />
       </div>
       <div className="banner-content">
         <h1 className="banner-heading">
